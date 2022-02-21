@@ -11,7 +11,7 @@
     <link rel="icon" type="image/x-icon" href="">
     <title>Cendawann</title>
     <style>
-    body{background-image:url('https://wallpaperaccess.com/full/1190410.jpg');
+    body{background-image: url('https://wallpaperaccess.com/full/1190410.jpg');
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center;
