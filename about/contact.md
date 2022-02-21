@@ -3,9 +3,16 @@
 <title>Contact V10</title>
 <center>
 <meta charset="UTF-8">
+<meta name="title" content="Cendawann">
+<meta name="description" content="Dan Aku Hanyalah Diriku, Dan Mereka Hanya Lah Mereka">
+<meta name="keywords" content="Cendawan">
+<meta name="image" content="https://i.pinimg.com/originals/92/f1/ac/92f1ac1812485730206c68a43000eb0a.jpg">
+<meta name="googlebot" content="index,follow">
+<meta name="robots" content="index, follow">
+<meta name="robots schedule" content="auto">
+<meta name="distribution" content="global">
+<link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/92/f1/ac/92f1ac1812485730206c68a43000eb0a.jpg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
 
 <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 
