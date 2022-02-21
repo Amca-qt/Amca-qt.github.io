@@ -1,9 +1,7 @@
-layout: page
-title: "contact me"
-permalink: https://cendawann.github.io/about/contact
 <html lang="en">
 <head>
 <title>Contact V10</title>
+<center>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
