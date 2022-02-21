@@ -1,5 +1,6 @@
-title: "Contact Me"
-permalink: https://cendawann.github.io/contact.php
+layout: page
+title: "contact me"
+permalink: https://cendawann.github.io/about/contact
 <html lang="en">
 <head>
 <title>Contact V10</title>
