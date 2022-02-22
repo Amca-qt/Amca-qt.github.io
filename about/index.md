@@ -533,7 +533,6 @@ TypingText.prototype.run = function() {
  So Make Sure To Follow That Account.
  <br>
  Im Not A Good Coder But I Try Be The Best For You Guys ^,^
-</font>
 <script type="text/javascript">
 
 
@@ -588,5 +587,3 @@ TypingText.runAll();
 
 
 </script>
-  </head>
-</html>
