@@ -39,7 +39,7 @@
     <b>
     <font face="iceberg" color="white"> 
     <center>
-      Cendawan Site's </font>
+      Cendawan Site's
     </center> <img src="https://64.media.tumblr.com/763c3316020958083351d79146df4d0c/tumblr_mr3i30XBH61se2vfqo1_500.gif" width="22%" align="right">
     <font face="courier new" color="white">
       <script>
