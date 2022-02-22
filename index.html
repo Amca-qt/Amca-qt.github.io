@@ -1,15 +1,22 @@
 <html>
   <head>
-    <meta name="title" content="Cendawann">
-    <meta name="description" content="Dan Aku Hanyalah Diriku, Dan Mereka Hanya Lah Mereka">
+    <meta name="title" content="Cendawan">
+    <meta name="description" content="Di Balik Selendang Sembunyi Nur Kasihmu">
     <meta name="keywords" content="Cendawan">
     <meta name="image" content="https://i.pinimg.com/originals/92/f1/ac/92f1ac1812485730206c68a43000eb0a.jpg">
     <meta name="googlebot" content="index,follow">
     <meta name="robots" content="index, follow">
     <meta name="robots schedule" content="auto">
     <meta name="distribution" content="global">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js.download"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/92/f1/ac/92f1ac1812485730206c68a43000eb0a.jpg">
-    <title>Cendawann</title>
+    <iframe src="https://e.top4top.io/m_2235ukfkr1.m4a" allow="autoplay" style="display:none" id="iframeAudio"></iframe>
+    <p>
+    <title>CendawanN</title>
     <style>
     body{background-image: url('https://wallpaperaccess.com/full/1190410.jpg');
          background-repeat: no-repeat;
@@ -17,13 +24,567 @@
          background-position: center;
          background-size: 150%;
          background-color: #000;
+    a{
+      color: green;
+    }
+      /* latin */
+      @font-face { 
+      font-family: 'Iceberg';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Iceberg'), local('Iceberg-Regular'), url(https://fonts.gstatic.com/s/iceberg/v7/8QIJdijAiM7o-qnZiI8EqprnEO0.woff2) format('woff2'); 
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; 
+      }
     </style>
+    <b>
+    <font face="iceberg" color="white"> 
     <center>
-      <font color="white">
-      <h1>Hai Awak</h1>
-        <br>
-        <b>
-        <a href="https://cendawann.github.io/about/contact">Contact Me</a>
-    </center>
-  </head>
-</html>
+      Cendawan Site's
+    </center> <img src="https://64.media.tumblr.com/763c3316020958083351d79146df4d0c/tumblr_mr3i30XBH61se2vfqo1_500.gif" width="22%" align="right">
+    <font face="courier new" color="white">
+      <script>
+        TypingText = function(element, interval, cursor, finishedCallback) {
+
+
+  if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+
+
+    this.running = true;	// Never run.
+
+
+
+
+    return;
+
+
+
+
+  }
+
+
+
+  this.element = element;
+
+
+
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+
+
+
+  this.interval = (typeof interval == "undefined" ? 100 : interval);
+
+
+
+  this.origText = this.element.innerHTML;
+
+
+
+  this.unparsedOrigText = this.origText;
+
+
+
+  this.cursor = (cursor ? cursor : "");
+
+
+
+  this.currentText = "";
+
+
+
+  this.currentChar = 0;
+
+
+
+  this.element.typingText = this;
+
+
+
+  if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+
+
+
+  TypingText.all.push(this);
+
+
+
+  this.running = false;
+
+
+
+  this.inTag = false;
+
+
+
+  this.tagBuffer = "";
+
+
+
+
+
+  this.inHTMLEntity = false;
+
+
+
+
+
+  this.HTMLEntityBuffer = "";
+
+
+
+
+
+}
+
+
+
+
+
+TypingText.all = new Array();
+
+
+
+
+
+TypingText.currentIndex = 0;
+
+
+
+
+
+TypingText.runAll = function() {
+
+
+
+
+
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+
+
+
+
+
+}
+
+
+
+
+
+TypingText.prototype.run = function() {
+
+
+
+
+
+  if(this.running) return;
+
+
+
+
+
+  if(typeof this.origText == "undefined") {
+
+
+
+
+
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);	// We haven't finished loading yet.  Have patience.
+
+
+
+
+
+    return;
+
+
+
+
+
+  }
+
+
+
+
+
+  if(this.currentText == "") this.element.innerHTML = "";
+
+
+
+
+
+//  this.origText = this.origText.replace(/<([^<])*>/, "");     // Strip HTML from text.
+
+
+
+
+
+  if(this.currentChar < this.origText.length) {
+
+
+
+
+
+    if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+
+
+
+
+
+      this.tagBuffer = "<";
+
+
+
+
+
+      this.inTag = true;
+
+
+
+
+
+      this.currentChar++;
+
+
+
+
+
+      this.run();
+
+
+
+
+
+      return;
+
+
+
+
+
+    } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+
+
+
+
+
+      this.tagBuffer += ">";
+
+
+
+
+
+      this.inTag = false;
+
+
+
+
+
+      this.currentText += this.tagBuffer;
+
+
+
+
+
+      this.currentChar++;
+
+
+
+
+
+      this.run();
+
+
+
+
+
+      return;
+
+
+
+
+
+    } else if(this.inTag) {
+
+
+
+
+
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+
+
+
+
+
+      this.currentChar++;
+
+
+
+
+
+      this.run();
+
+
+
+
+
+      return;
+
+
+
+
+
+    } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+
+
+
+
+
+      this.HTMLEntityBuffer = "&";
+
+
+
+
+
+      this.inHTMLEntity = true;
+
+
+
+
+
+      this.currentChar++;
+
+
+
+
+
+      this.run();
+
+
+
+
+
+      return;
+
+
+
+
+
+    } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+
+
+
+
+
+      this.HTMLEntityBuffer += ";";
+
+
+
+
+
+      this.inHTMLEntity = false;
+
+
+
+
+
+      this.currentText += this.HTMLEntityBuffer;
+
+
+
+
+
+      this.currentChar++;
+
+
+
+
+
+      this.run();
+
+
+
+
+
+      return;
+
+
+
+
+
+    } else if(this.inHTMLEntity) {
+
+
+
+
+
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+
+
+
+
+
+      this.currentChar++;
+
+
+
+
+
+      this.run();
+
+
+
+
+
+      return;
+
+
+
+
+
+    } else {
+
+
+
+
+
+      this.currentText += this.origText.charAt(this.currentChar);
+
+
+
+
+
+    }
+
+
+
+
+
+    this.element.innerHTML = this.currentText;
+
+
+
+
+
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+
+
+
+
+
+    this.currentChar++;
+
+
+
+
+
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+
+
+
+
+
+  } else {
+
+
+
+
+
+	this.currentText = "";
+
+
+
+
+
+	this.currentChar = 0;
+
+
+
+
+
+        this.running = false;
+
+
+
+
+
+        this.finishedCallback();
+
+
+
+
+
+  }
+
+
+
+
+
+}
+</script>
+<div id="example1"></div> 
+
+
+<p id="example2"> 
+
+<font size="4">
+
+<center>
+<br>
+<br>
+ Welcome To Cendawann Site >.< <br> This Site Will Provide You To My New Project And Repo On My <a href="https://github.com/LapanWasTaken">Github</a>
+  So Make Sure To Follow That Account. Or You Can Contact Me <a href="https://t.me/Cendawannn">Here</a>
+ <br>
+ Im Not A Good Coder But I Try Be The Best For You Guys ^,^
+<script type="text/javascript">
+
+
+
+
+
+//Define first typing example:
+
+
+
+
+
+new TypingText(document.getElementById("example1"));
+
+
+
+
+
+//Define second typing example (use "slashing" cursor at the end):
+
+
+
+
+
+new TypingText(document.getElementById("example2"), 50, function(i){
+
+
+
+
+
+var ar = new Array("_","_"," "," "," "); return " " + ar[i.length %
+
+
+
+
+
+ar.length]; });
+
+
+
+
+
+//Type out examples:
+
+
+
+
+TypingText.runAll();
+
+
+
+
+
+</script>
+
