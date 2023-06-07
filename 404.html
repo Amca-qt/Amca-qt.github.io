@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #000;
+      overflow: hidden;
+    }
+
+    .star {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 2px;
+      height: 2px;
+      background-color: #fff;
+      opacity: 0;
+      animation: twinkling 2s infinite;
+    }
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      text-align: center;
+    }
+
+    @keyframes twinkling {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text">404 | Not Found</h1>
+  <script>
+    function createStars() {
+      var numberOfStars = 100;
+      var container = document.body;
+
+      for (var i = 0; i < numberOfStars; i++) {
+        var star = document.createElement('div');
+        star.classList.add('star');
+        star.style.top = Math.random() * 100 + '%';
+        star.style.left = Math.random() * 100 + '%';
+        star.style.animationDelay = Math.random() * 2 + 's';
+        container.appendChild(star);
+      }
+    }
+
+    createStars();
+  </script>
+</body>
+</html>
