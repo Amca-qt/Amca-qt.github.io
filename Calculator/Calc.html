@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <word>Calculator</word>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="og:title" content="Amca-Qt Pages">
+  <meta name="og:description" content="Just A Simple Github Pages">
+  <link rel="shorcut icon" href="https://www.upload.ee/image/15256466/a0ce8293bddbc8c2d939882e15c5af7f.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <div class="stars" aria-hidden="true"></div>
+  <div class="starts2" aria-hidden="true"></div>
+  <div class="stars3" aria-hidden="true"></div>
+  <main class="main">
+  <style>
+    .calculator {
+      width: 300px;
+      background: #f2f2f2;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 0 auto;
+    }
+
+    .calculator input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    .calculator input[type="button"] {
+      width: 48%;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+
+    .calculator input[type="button"]:nth-child(4n) {
+      margin-right: 0;
+    }
+    word {
+      font-family: 'Poiret One', cursive;
+      font-size: 4rem;
+      margin-bottom: .5rem;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+
+    <input type="button" value="1" onclick="appendValue('1')">
+    <input type="button" value="2" onclick="appendValue('2')">
+    <input type="button" value="3" onclick="appendValue('3')">
+    <input type="button" value="+" onclick="appendValue('+')">
+
+    <input type="button" value="4" onclick="appendValue('4')">
+    <input type="button" value="5" onclick="appendValue('5')">
+    <input type="button" value="6" onclick="appendValue('6')">
+    <input type="button" value="-" onclick="appendValue('-')">
+
+    <input type="button" value="7" onclick="appendValue('7')">
+    <input type="button" value="8" onclick="appendValue('8')">
+    <input type="button" value="9" onclick="appendValue('9')">
+    <input type="button" value="*" onclick="appendValue('*')">
+
+    <input type="button" value="0" onclick="appendValue('0')">
+    <input type="button" value="." onclick="appendValue('.')">
+    <input type="button" value="=" onclick="calculate()">
+    <input type="button" value="/" onclick="appendValue('/')">
+  </div>
+
+  <script>
+    function appendValue(value) {
+      document.getElementById('result').value += value;
+    }
+
+    function calculate() {
+      try {
+        const result = eval(document.getElementById('result').value);
+        document.getElementById('result').value = result;
+      } catch (error) {
+        document.getElementById('result').value = 'Error';
+      }
+    }
+  </script>
+</body>
+</html>
