@@ -27,9 +27,17 @@
 				overflow: hidden;
     			text-align: center;
 			}
+			.left-button {
+				display: flex;
+				float: left;
+			}
 			.center-button {
 				display: flex;
 				justify-content: center;
+			}
+			.right-button {
+				display: flex;
+				float: right;
 			}
 			word1 {
 				font-family: 'Source Sans 3', sans-serif;
@@ -38,6 +46,13 @@
 				width: 100%;
 				overflow: hidden;
 			}
+			ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: none; /* warna bar navigasi */
+            }
 			li a {
 				display: inline-block;
 				text-align: center;
@@ -46,14 +61,15 @@
 				font-weight: bold;
 			}
 			li a:hover {
-				background-color: ;
+				background-color: none;
 				color: white;
 			}
 	</style>
 	<section class="contact">
 		<h1 class="title">AmcaQt</h1>
 			<ul>
-				<li class="center-button"><word1><a href="/Calculator/index.html">Calculator</a></word1>
+				<li class="left-button"><word1><a href="/Calculator/index.html">Calculator</a></word1>
+				<li class="center-button"><word1><a href="/About/index.html">About Me</word1></a>
 			</ul>
 		<h2 class="sub-title">Just A Boy , Who Love To Code and Loving Her</h2>
 </section>
