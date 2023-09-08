@@ -6,7 +6,7 @@
 Hello, My Name is AmcaQt I'm a Computer Science Student in High School from Malaysia. This is My Official <a href="https://amca-qt.github.io">Github Pages</a>, I'll update anything about my work and projects <a href="https://github.com">Here</a>. :> <br>
 Im just a Student who loves to code and loves anything about I.T Including Hacking
 
-I'm Currently learning 
+## I'm Currently learning 
 
 * 1. Python <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
 * 2. JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> 
