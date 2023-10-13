@@ -28,5 +28,9 @@ Im just a Student who loves to code and loves anything about I.T Including Hacki
 * 2. Tetris (Incoming)
 * 3. Other Game ...
 
+- <a href="https://amca-qt.github.io/Flowers/">Flowers Code TikTok Trend</a>
+> **Note**
+> This Is For My Friend, Everything on this Page is not Related to Me
+
 ## Disclaimer
 Im not a good coder but I'll be the best for you guys <3
