@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to my Github Pages</h1>
-<h3 align="center">This My Official Github Pages for my Computer Science Project ( Under Construction / Unactive )</h3>
+<h3 align="center">This My Official Github Pages for my Computer Science Project ( Under Construction )</h3>
 
 ## Introduction 
 
