@@ -5,46 +5,135 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="og:title" content="Amca-Qt Pages">
 	<meta name="og:description" content="Just A Simple Github Pages">
-	<link rel="shorcut icon" href="https://www.upload.ee/image/15256466/a0ce8293bddbc8c2d939882e15c5af7f.jpg">
-	<link rel="stylesheet" href="https://amca-qt.github.io/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<link rel="shorcut icon" href="Images\AmcaQt-logo.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://amca-qt.github.io/styles.css"> -->
 	<style>
-		@import url('https://fonts.googleapis.com/css?family=Source+Sans+3');
+		* {
+    		margin: 0;
+    		padding:0;
+    		box-sizing: border-box;
+		}			
+
+		body {
+    		overflow: visible;
+    		font-family: Arial, sans-serif;
+		}
+
+		header {
+    		text-align: center;
+    		padding: 30px 0;
+    		color: white;
+    		position: relative; /* Ensure it stays at the top */
+    		z-index: 10; /* Ensure it stays above other elements */
+		}
+
+		header h1 {
+    		font-size: 3rem;
+    		margin: 0;
+    		font-family: 'Amaranth';
+    		text-transform: none;
+		}
+
+		section {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+    		height: 100vh;
+    		background: url("https://cdn.wallpapersafari.com/44/89/FmbP82.jpg");
+    		background-size: cover;
 		
-		/* Add styles for the semi-transparent box */
-		.overlay {
-			position: fixed;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+		}
+
+		/* @import url("hhttps://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap"); */
+		
+		.box-content {
+			background: rgba(113, 113, 113, 0.5);
+			margin: 20px;
 			padding: 20px;
 			border-radius: 10px;
+			/* text-align: center; */
+
+		}
+
+		.overlay {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width: 100%;
+	    	height: 100%;
+	    	background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+	    	color: white;
+    		display: flex;
+    		flex-wrap: wrap;
+	    	/* flex-direction: grid; Aligns the boxes side by side */
+    		justify-content: space-around; /* Center them horizontally */
+    		align-items: center; /* Center them vertically */
+	    	padding: 100px;
+    		/* gap: 20px; Space between the boxes */
+		}
+
+		.box-content p {
+			font-family: 'Amaranth';
+			text-shadow: rgba(0, 0, 0, 0.5);
+		}
+
+		.box-content a {
 			color: white;
-			font-family: 'Open Sans', sans-serif;
-			text-align: center;
+		}
+
+		.box-content h1 {
+			color: rgb(74, 177, 181);
 		}
 	</style>
 </head>
 <body>
-	<div class="stars" aria-hidden="true"></div>
-	<div class="stars2" aria-hidden="true"></div>
-	<div class="stars3" aria-hidden="true"></div>
-	<main class="main">
-		<!-- Your webpage content here -->
-	</main>
-	
-	<!-- Semi-transparent box -->
-	<div class="overlay">
-		<h1><b>About Me</b></h1>
-		<h2>HI, My name is AmcaQt.</h2>
-		<br>
-		<p>I'm a Computer Science Student in High School from <b>Malaysia</b>. 
-			<br> Im just a Student who loves to code and loves anything about I.T Including Hacking :>. 
-			<br> I'm Currently learning <b>Python, JavaScript, PHP, HTML5</b></p>
-		<p>Everything about my project and my code will be on this page or my GitHub</p>
-		<br>
-		<h3>Fun Fact About Me</h3><p> I'm a cute, Humble and a Loving Person</p>
-	</div>
+	<header>
+		<h1>About Me</h1>
+	</header>
+	<section>
+		<div class="box-container">
+			<div class="overlay">
+				<div class="box-content">
+					<h1>Introduction</h1>
+					<br>
+					<p>
+						Hey there! I'm AmcaQt, a passionate Coder and CyberSecurity enthusiast. I love diving into <b>Capture The Flag (CTF)</b> challenges, tackling complex problems, and sharpening my skills in penetration testing. When I'm not exploring vulnerabilities, you'll probably find me coding up a storm in Python or building web projects.
+					</p>
+					<br>
+					<h1>Skills and Expertise</h1>
+					<br>
+					<p>
+						<b>Languages :</b> Python, Java, JavaScript, HTML, CSS, PHP <br>
+						<b>Technologies :</b> Web Development, GitHub Pages, CTF Challenges <br>
+						<b>Currently On :</b> HackTheBox, PicoCTF, HackerOne, TryHackMe <br>
+						<b>Recent Projects :</b> Python Calculator, Web Version Calculator <br>
+					</p>
+					<br>
+					<h1>Coding Projects</h1>
+					<br>
+					<p>
+						As a coder, I enjoy building tools and websites that solve real-world problems. One of my recent projects includes a <b>Python calculator</b>, and I’m currently working on enhancing my GitHub Pages, where I’ve started sharing my CTF write-ups.
+						Also my Upcoming Projects to make Online Games.
+					</p>
+					<br>
+					<h1>Hobbies and Interest</h1>
+					<br>
+					<p>
+						Outside of coding and CTFs, I’m a curious learner and enjoy diving into new tech trends. Whether it's exploring new programming languages or diving into the latest cybersecurity threats, I'm always eager to learn more.
+					</p>
+					<br>
+					<h1>Contact Me</h1>
+					<br>
+					<p>
+						Feel free to connect with me through <a href="https://www.instagram.com/amcaaqt/">Instagram</a> ( You may not see me posting anything LulL ) or check out my latest projects on <a href="https://github.com/Amca-qt/">Github</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
